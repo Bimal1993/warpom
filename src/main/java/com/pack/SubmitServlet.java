@@ -29,8 +29,10 @@ public class SubmitServlet extends HttpServlet
         out.print("<html>");
         out.print("<body>");
         out.print("<table border='1'>");
-        out.print("<tr><td>Name:+'"+name+"'+</td>");
-        out.print("<td>Password:'"+pass+"'</td><tr>");
+        out.print("<tr><th>Name</th>");
+         out.print("<td>"+name+"</td></tr>");
+        out.print("<tr><th>Password</th>");
+        out.print("<td>"+pass+"</td></tr>");
         out.print("</table>");
         out.print("</body>");
         out.print("</html>");
